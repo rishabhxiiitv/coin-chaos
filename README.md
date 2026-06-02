@@ -37,23 +37,7 @@ A real-time multiplayer coin collection game built with Python, Pygame, and WebS
 
 ## 🎥 Demo
 
-*(Add screenshots or GIF recordings here once available)*
-
-**Lobby Screen:**
-- Player list with avatars
-- Host controls for starting game
-- Chat tab for pre-game communication
-
-**Game Screen:**
-- Live gameplay with coin spawning
-- Player movement and collision
-- Real-time score tracking
-- In-game chat panel
-
-**Leaderboard Screen:**
-- Final scores displayed
-- Winner announcement
-- 10-second view before disconnect
+![Coin Chaos Gameplay](demo.gif)
 
 ---
 

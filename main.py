@@ -1554,8 +1554,10 @@ async def main():
     player_name = input("Please enter your name: ")
     lobby_password = input("Enter lobby password: ") 
 
-    #uri = "ws://localhost:8765" # Localhost for testing
-    uri = "wss://v3-production-5d5a.up.railway.app" # Deployed server
+    uri = "ws://localhost:8765" # Localhost for testing
+    # To deploy online: host server.py on Railway (or Heroku), set the PORT and
+    # LOBBY_PASSWORD env vars, then switch to:
+    # uri = "wss://<your-app>.up.railway.app"
     
     print(f"Connecting to {uri}...")
     final_players = None
